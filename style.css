@@ -1,105 +1,152 @@
 
+/* COMPUTER SCREEN */
 @media only screen and (min-width: 1000px) {
+  html, body {
+    height: 80%;
+    width: 100%;
+  }
+  body, main {
+    height: 100%;
+    width: 100%;
+    background-color: #c1524c;
+  }
   nav .brand-logo {
     padding-left: 2em !important;
   }
+
   header {
     height: 64px;
   }
+
   .fav-search-block {
-    margin-top: 5% !important;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin: 2%;
   }
+
+  .feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
   .featured {
-    margin-top: 5% !important;
-    margin-bottom: 5% !important;
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
   }
-}
 
-@media only screen and (max-width: 415px) {
   .favorites, .bottomless {
-    width: 100% !important;
-    height: 100px !important;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 2.5%;
   }
+
+  .favorites {
+    width: 30%;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .rose, .bottomless {
+    width: 50%;
+  }
+
   .search, .rose {
-    width: 100% !important;
-    height: 100px !important;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 2.5%;
+  }
+
+  .bottomless-rose-block {
+    margin: 2%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
   }
 }
 
-html, body {
-  height: 80%;
-  width: 100%;
-}
+/* PHONE SCREEN */
+@media only screen and (max-width: 415px) {
+  html, body {
+    height: 80%;
+    width: 100%;
+  }
+  body, main {
+    height: 100%;
+    width: 100%;
+    background-color: #c1524c;
+  }
 
-body, main {
-  height: 100%;
-  width: 100%;
-  background-color: #c1524c;
-}
+  .fav-search-block {
+    margin-top: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 
-.fav-search-block {
-  margin: 2%;
-  margin-top: 10%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-}
+  .bottomless-rose-block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
 
-.favorites, .bottomless {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-  margin-right: 2.5%;
-}
+  .favorites, .bottomless {
+    width: 100%;
+    height: 100px;
+    margin: 0 !important;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+  }
 
-.favorites {
-  width: 30%;
-}
+  .search, .rose {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: white;
+  }
 
-.search {
-  width: 100%;
-}
+  .feature-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-.rose, .bottomless {
-  width: 50%;
-}
+  .featured {
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+  }
 
-.search, .rose {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-  margin-left: 2.5%;
-}
-
-.feature-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-.featured {
-  width: 100%;
-  height: 100px;
-  margin: 2%;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: white;
-}
-
-.bottomless-rose-block {
-  margin: 2%;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
 }
