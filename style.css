@@ -3,29 +3,23 @@
   nav .brand-logo {
     padding-left: 2em !important;
   }
-
   header {
     height: 64px;
   }
-
   .fav-search-block {
     margin-top: 5% !important;
   }
-
   .featured {
     margin-top: 5% !important;
     margin-bottom: 5% !important;
   }
-
 }
 
 @media only screen and (max-width: 415px) {
-
   .favorites, .bottomless {
     width: 100% !important;
     height: 100px !important;
   }
-
   .search, .rose {
     width: 100% !important;
     height: 100px !important;
