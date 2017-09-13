@@ -13,7 +13,8 @@ var menuItems = {
                     "zipcode": "80205",
                     "country_id": 216,
                     "locality_verbose": "LoDo, Denver",
-                    "logo": "/Users/kylegibson/galvanize/unit-1/Brunch./pictures/snoozelogo-300x145.png"
+                    "logo": "/Users/kylegibson/galvanize/unit-1/Brunch./pictures/snoozelogo-300x145.png",
+                    "menu_Url":'http://snoozeeatery.com/co-menu/'
                 },
                 "menu":{
                     "items":[
@@ -182,7 +183,7 @@ var menuItems = {
                             "item":"Sandwich I Am",
                             "description": 'A soft pretzel roll filled with scrambled eggs, cheddar cheese and a sausage patty, served with a side of smoked cheddar hollandaise & house hash browns … served with hash browns, black beans, dressed greens or fruit $2',
                             "labels": ['sandwich','pretzel','roll','eggs','egg','cheddar','cheese','cheddar cheese','sausage','smoked','hollandaise','hash browns','hash browns','black beans','beans','greens','green','fruit'],
-                            "price": ''
+                            "price": 'n/a'
                         },
                       },
                       {
@@ -190,7 +191,7 @@ var menuItems = {
                             "item":"Havana Daydreaming",
                             "description": 'Free-range house pork, shaved ham, gruyere cheese, homemade pickles and a sunny side egg (or your call) with Dijon hollandaise, served up open-face on a hoagie roll … served with hash browns, black beans, dressed greens or fruit $2',
                             "labels": ['havana','daydreaming','havana daydreaming','pork','ham','cheese','gruyere','gruyere cheese','pickles','pickle','egg','eggs','dijon','hollandaise','hoagie','hoagie roll','roll','hash browns','black beans','beans','greens','green','fruit'],
-                            "price": ''
+                            "price": 'n/a'
                         },
                       },
                       {

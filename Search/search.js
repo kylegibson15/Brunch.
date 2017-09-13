@@ -15,6 +15,7 @@ form.addEventListener('submit', function(event) {
       var currentRestaurantAddress = currentRestaurant.restaurant.location.address
       var currentRestaurantLocale = currentRestaurant.restaurant.location.locality
       var currentRestaurantLogo = currentRestaurant.restaurant.location.logo
+      var currentRestaurantLink = currentRestaurant.restaurant.location.menu_Url
 
 
       for(var j = 0; j < currentRestaurantMenuItems.length; j++){
@@ -33,6 +34,7 @@ form.addEventListener('submit', function(event) {
               var div = document.createElement('div')
               var h5 = document.createElement('h5')
               var h6 = document.createElement('h6')
+              var link = document.createElement('a')
               var restaurantName = document.createElement('p')
               var address = document.createElement('p')
               var locale = document.createElement('p')
@@ -43,7 +45,8 @@ form.addEventListener('submit', function(event) {
               h5.innerText = currentItem
               h6.innerText = currentDescription
               price.innerText = `$ ${currentRestaurantMenuItemPrice}`
-              restaurantName.innerText = `you can find this at: ${currentRestaurantName}`
+              // restaurantName.innerText = `you can find this at: ${currentRestaurantName}`
+              link.setAttribute('href', currentRestaurantLink)
               logo.setAttribute('src', currentRestaurantLogo)
               address.innerText = currentRestaurantAddress
               locale.innerText = currentRestaurantLocale
@@ -55,7 +58,8 @@ form.addEventListener('submit', function(event) {
               div.append(h6)
               div.append(price)
               div.append(restaurantName)
-              div.append(logo)
+              div.append(link)
+                link.append(logo)
               div.append(address)
               div.append(locale)
 
