@@ -434,7 +434,8 @@ var menuItems = {
                   "zipcode": "80202",
                   "country_id": 216,
                   "locality_verbose": "Central Business District, Denver",
-                  "logo":"/Users/kylegibson/galvanize/unit-1/Brunch./pictures/New-syrup-logo-main.png"
+                  "logo":"/Users/kylegibson/galvanize/unit-1/Brunch./pictures/New-syrup-logo-main.png",
+                  "menu_Url":'http://www.syruprestaurant.com/menu/breakfast-and-brunch/'
                 },
                 "menu":{
                     "items":[

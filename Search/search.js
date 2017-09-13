@@ -5,7 +5,7 @@ form.addEventListener('submit', function(event) {
 
   var restaurantsArray = menuItems.restaurants
   var section = document.getElementById('foodItems')
-
+  section.innerHTML = '';
   function findMenuItems(id){
     for(var i = 0; i < restaurantsArray.length; i++){
 
@@ -24,6 +24,8 @@ form.addEventListener('submit', function(event) {
           var currentItem = currentRestaurantMenuItems[j][k].item
           var currentDescription = currentRestaurantMenuItems[j][k].description
           var currentRestaurantMenuItemPrice = currentRestaurantMenuItems[j][k].price
+
+
 
           for(var l = 0; l < currentLabels.length; l++){
             if(id === currentLabels[l]){
@@ -45,6 +47,7 @@ form.addEventListener('submit', function(event) {
               logo.setAttribute('src', currentRestaurantLogo)
               address.innerText = currentRestaurantAddress
               locale.innerText = currentRestaurantLocale
+
 
 
               section.append(div)

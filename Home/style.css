@@ -15,47 +15,74 @@
   }
 
   #city {
-    padding-right: 5%;
-    margin-left: -50%;
+    margin-left: -30%;
     font-size: .8em;
-    border-right: .1em solid white;
+    text-decoration: underline white;
+    -webkit-transform: rotate(-90deg);
+  }
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    border: 2px solid white;
+    background-color: hsla(0, 100%, 30%, 0.9);
+    color: white;
+  }
+  #logo-big {
+    font-size: 7rem;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74%;
+    height: 80%;
+    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/hero-background-desktop.jpg')
+  }
+
+  h1 {
+    font-size: 64px;
   }
 
   header {
     height: 64px;
   }
 
-  .fav-search-block {
+  #fav-search-block {
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 5%;
   }
 
-  .feature-container {
+  #feature-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .featured {
+  #featured {
     width: 100%;
     height: 100px;
     border: 1px solid white;
     background-color: transparent;
   }
 
-  #favorites, .bottomless {
+  #favorites{
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
+    margin-right: 3em;
+    margin-left: 3em;
     border: 1px solid white;
-  }
-
-  #favorites {
-    width: 35%;
-    height: 400px;
+    width: 25%;
+    height: 200px;
+    border-radius: 50%;
     background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/toast heart.png')
   }
 
@@ -66,11 +93,11 @@
     background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/breakfast-illustration.png')
   }
 
-  .rose, .bottomless {
+  #rose {
     width: 50%;
   }
 
-  #search, .rose {
+  #search, #rose {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,10 +105,10 @@
     background-color: transparent;
   }
 
-  .bottomless-rose-block {
+  #rose-block {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: flex-end;
   }
 }
 

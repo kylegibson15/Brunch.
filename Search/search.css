@@ -1,0 +1,10 @@
+nav .brand-logo {
+  padding-left: 2em !important;
+}
+
+#city {
+  margin-left: -30%;
+  font-size: .8em;
+  text-decoration: underline white;
+  -webkit-transform: rotate(-90deg);
+}
