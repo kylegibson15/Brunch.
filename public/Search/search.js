@@ -32,39 +32,43 @@ form.addEventListener('submit', function(event) {
             if(id === currentLabels[l]){
 
               var div = document.createElement('div')
+              var priceLocale = document.createElement('div')
               var h5 = document.createElement('h5')
               var h6 = document.createElement('h6')
               var link = document.createElement('a')
-              var restaurantName = document.createElement('p')
               var address = document.createElement('p')
               var locale = document.createElement('p')
               var price = document.createElement('p')
               var logo = document.createElement('img')
+              var linkLogo= document.createElement('div')
 
-              div.classList.add('container')
+              div.classList.add('food-container')
               h5.innerText = currentItem
               h6.innerText = currentDescription
+                priceLocale.classList.add('price-locale')
               price.innerText = `$ ${currentRestaurantMenuItemPrice}`
-              // restaurantName.innerText = `you can find this at: ${currentRestaurantName}`
               link.setAttribute('href', currentRestaurantLink)
+                link.classList.add('link')
+                linkLogo.classList.add('linkLogo')
               logo.setAttribute('src', currentRestaurantLogo)
+                logo.classList.add('logo')
               address.innerText = currentRestaurantAddress
               locale.innerText = currentRestaurantLocale
-
-
 
               section.append(div)
               div.append(h5)
               div.append(h6)
-              div.append(price)
-              div.append(restaurantName)
-              div.append(link)
-                link.append(logo)
+              div.append(priceLocale)
+                priceLocale.append(price)
+                priceLocale.append(locale)
               div.append(address)
-              div.append(locale)
+              div.append(linkLogo)
+                linkLogo.append(link)
+                  link.append(logo)
 
 
-              console.log(`${currentItem}, ${currentDescription}`)
+
+              // console.log(`${currentItem}, ${currentDescription}`)
             }else{
 
             }

@@ -8,3 +8,16 @@ nav .brand-logo {
   text-decoration: underline white;
   -webkit-transform: rotate(-90deg);
 }
+
+#rose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roseOfTheMonth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}

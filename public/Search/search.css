@@ -2,9 +2,58 @@ nav .brand-logo {
   padding-left: 2em !important;
 }
 
+.sticky {
+  position: fixed;
+  top: 0px;
+}
+
 #city {
   margin-left: -30%;
   font-size: .8em;
   text-decoration: underline white;
   -webkit-transform: rotate(-90deg);
+}
+
+#search-area {
+  width: 95%;
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+
+#foodItems {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: wrap;
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+
+.food-container {
+  width: 32%;
+  padding: 1.5rem;
+  margin: .2rem;
+  border: .5px solid black;
+}
+
+.linkLogo {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.logo {
+  width: 50%;
+  align-self: flex-end;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.price-locale {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
 }
