@@ -40,7 +40,7 @@
     justify-content: center;
     width: 74%;
     height: 80%;
-    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/hero-background-desktop.jpg')
+    background-image: url('pictures/hero-background-desktop.jpg')
   }
 
   h1 {
@@ -83,14 +83,14 @@
     width: 25%;
     height: 200px;
     border-radius: 50%;
-    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/toast heart.png')
+    background-image: url('pictures/mimosas.png')
   }
 
   #search {
     width: 100%;
     height: 400px;
     background-color: white;
-    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/breakfast-illustration.png')
+    background-image: url('pictures/breakfast-illustration.png')
   }
 
   #rose {

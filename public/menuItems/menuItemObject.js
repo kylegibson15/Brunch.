@@ -13,7 +13,7 @@ var menuItems = {
                     "zipcode": "80205",
                     "country_id": 216,
                     "locality_verbose": "LoDo, Denver",
-                    "logo": "/Users/kylegibson/galvanize/unit-1/Brunch./pictures/snoozelogo-300x145.png",
+                    "logo": "../pictures/snoozelogo-300x145.png",
                     "menu_Url":'http://snoozeeatery.com/co-menu/'
                 },
                 "menu":{
@@ -435,7 +435,7 @@ var menuItems = {
                   "zipcode": "80202",
                   "country_id": 216,
                   "locality_verbose": "Central Business District, Denver",
-                  "logo":"/Users/kylegibson/galvanize/unit-1/Brunch./pictures/New-syrup-logo-main.png",
+                  "logo":"../pictures/New-syrup-logo-main.png",
                   "menu_Url":'http://www.syruprestaurant.com/menu/breakfast-and-brunch/'
                 },
                 "menu":{
