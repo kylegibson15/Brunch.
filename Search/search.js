@@ -1,31 +1,29 @@
-var items = []
-var items2 = {}
-var items3 = []
-var value = 'chocolate'
-// for(var i = 0; i < menuItems.restaurants.length; i++){
-//   for(var j in )
-//   items.push(menuItems.restaurants[i])
-//   // console.log(items)
-// }
-for(var j in menuItems.restaurants[0]) {
-  items2.item = menuItems.restaurants[0][j].menu.items[0]
-  console.log(items2)
-}
-// for(var k = 0; k < items2.length; k++){
-//   for(var l in items2[k]){
-//     items3.push(items2[k][l].labels)
-//
-//   }
-  // console.log(items2)
-  // console.log(items3)
-// }
-// console.log(items3)
-for( var m = 0; m < items3.length; m++){
-  for(var o = 0; o < items3[m].length; o++){
-    if(value === items3[m][o]){
-      // console.log(`yay, we have ${value}, `)
-    } else{
-      // console.log(`fuck you`)
+var value = 'bacon'
+var restaurantsArray = menuItems.restaurants
+
+function findMenuItems(value){
+  for(var i = 0; i < restaurantsArray.length; i++){
+
+    var currentRestaurant = restaurantsArray[i]
+    var currentRestaurantName = currentRestaurant.restaurant.name
+    var currentRestaurantMenuItems = currentRestaurant.restaurant.menu.items
+
+    for(var j = 0; j < currentRestaurantMenuItems.length; j++){
+      for(var k in currentRestaurantMenuItems[j]){
+
+        var currentLabels = currentRestaurantMenuItems[j][k].labels
+        var currentItem = currentRestaurantMenuItems[j][k].item
+        var currentDescription = currentRestaurantMenuItems[j][k].description
+
+        for(var l = 0; l < currentLabels.length; l++){
+          if(value === currentLabels[l]){
+            console.log(`${currentItem}, ${currentDescription}`)
+          }else{
+
+          }
+        }
+      }
     }
   }
 }
+findMenuItems(value)
