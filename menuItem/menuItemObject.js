@@ -12,7 +12,8 @@ var menuItems = {
                     "longitude": "-104.9889972222",
                     "zipcode": "80205",
                     "country_id": 216,
-                    "locality_verbose": "LoDo, Denver"
+                    "locality_verbose": "LoDo, Denver",
+                    "logo": "/Users/kylegibson/galvanize/unit-1/Brunch./pictures/snoozelogo-300x145.png"
                 },
                 "menu":{
                     "items":[
@@ -68,7 +69,7 @@ var menuItems = {
                         "3 Egg Omelet or Scramble":{
                             "item":"3 Egg Omelet or Scramble",
                             "description": 'Our farm fresh eggs with a choice of three fillings served with hash browns and choice of toast or tortillas **Now available as a tofu scramble!**',
-                            "labels": ['eggs','egg','strawberry','strawberries','blueberry','blueberries','hash browns','toast','tortillas','tortilla','tofu','scramble'],
+                            "labels": ['eggs','egg','strawberry','strawberries','blueberry','blueberries','hash browns','toast','tortillas','tortilla','tofu','scramble','omelet'],
                             "price": 'n/a'
                         },
                       },
@@ -415,7 +416,7 @@ var menuItems = {
                             "labels": ['coffee','drink','alcohol','bourbon','espresso'],
                             "price": 'n/a'
                         },
-                      }        
+                      }
                     ]
                 }
             }
@@ -432,7 +433,8 @@ var menuItems = {
                   "longitude": "-104.9915620000",
                   "zipcode": "80202",
                   "country_id": 216,
-                  "locality_verbose": "Central Business District, Denver"
+                  "locality_verbose": "Central Business District, Denver",
+                  "logo":"/Users/kylegibson/galvanize/unit-1/Brunch./pictures/New-syrup-logo-main.png"
                 },
                 "menu":{
                     "items":[

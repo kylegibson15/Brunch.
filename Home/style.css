@@ -14,6 +14,13 @@
     padding-left: 2em !important;
   }
 
+  #city {
+    padding-right: 5%;
+    margin-left: -50%;
+    font-size: .8em;
+    border-right: .1em solid white;
+  }
+
   header {
     height: 64px;
   }
@@ -23,7 +30,6 @@
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 5%;
-    margin: 2%;
   }
 
   .feature-container {
@@ -36,49 +42,43 @@
   .featured {
     width: 100%;
     height: 100px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
+    border: 1px solid white;
+    background-color: transparent;
   }
 
-  .favorites, .bottomless {
-    height: 100px;
+  #favorites, .bottomless {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
-    margin-right: 2.5%;
+    border: 1px solid white;
   }
 
-  .favorites {
-    width: 30%;
+  #favorites {
+    width: 35%;
+    height: 400px;
+    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/toast heart.png')
   }
 
-  .search {
+  #search {
     width: 100%;
+    height: 400px;
+    background-color: white;
+    background-image: url('/Users/kylegibson/galvanize/unit-1/Brunch./pictures/breakfast-illustration.png')
   }
 
   .rose, .bottomless {
     width: 50%;
   }
 
-  .search, .rose {
-    height: 100px;
+  #search, .rose {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
-    margin-left: 2.5%;
+    border: 1px solid white;
+    background-color: transparent;
   }
 
   .bottomless-rose-block {
-    margin: 2%;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
@@ -152,48 +152,3 @@
   }
 
 }
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
