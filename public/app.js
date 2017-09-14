@@ -25,3 +25,18 @@ for(var i = 0; i < featured.length; i++){
     })
   })
 }
+
+var gifSection = document.getElementsByClassName('gif-container')[0];
+
+fetch(`https://galvanize-cors.herokuapp.com/https://api.giphy.com/v1/gifs/random?api_key=29d4517030f64969a6e4a45aa7fb1fd2&tag=wine&rating=R`)
+  .then((response) => {
+    return response.json()
+      .then((gif) => {
+
+        var gifTag = document.createElement('img')
+
+        gifTag.setAttribute('src', gif.data.image_url)
+        gifTag.classList.add('giphy')
+        gifSection.append(gifTag)
+      })
+  })
