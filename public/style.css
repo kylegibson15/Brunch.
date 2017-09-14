@@ -11,12 +11,16 @@
     background-color: white;
   }
 
+  .fryingPan {
+    height: 2rem;
+    width: auto;
+    margin-top: 1.2rem;
+  }
+
   nav .brand-logo {
     padding-left: 2em !important;
   }
-  nav {
-    border-bottom: 2px solid white;
-  }
+  
   #city {
     font-size: .8em;
     text-decoration: underline white;
