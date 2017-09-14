@@ -12,7 +12,7 @@
 //       var name = document.createElement('h6')
 //         name.innerText = restaurantData.restaurants[0].restaurant.name
 //       var rating = document.createElement('p')
-//         rating.innerText = restaurantData.restaurants[0].restaurant.user_rating.aggregate_rating
+//         rating.innerText = `rating:  ${restaurantData.restaurants[0].restaurant.user_rating.aggregate_rating}`
 //       var image = document.createElement('img')
 //         image.setAttribute('src',restaurantData.restaurants[0].restaurant.featured_image)
 //         image.classList.add('restaurantImage')
