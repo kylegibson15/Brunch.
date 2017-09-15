@@ -19,11 +19,11 @@ You can visit Brunch. at **[Brunch.](https://brunch-app-project-1.firebaseapp.co
 
 #### Screenshots
 
-![Home Screen](public/pictures/Home Screen.png)
+![Home Screen](public/pictures/Home-Screen.png)
 ![Home - Search/Featured section](public/pictures/Search-Featured.png)
-![Home - Rosé section](public/pictures/Rose section.png)
-![Search Page](public/pictures/Search Page.png)
-![Rosé Page](public/pictures/Rose page.png)
+![Home - Rosé section](public/pictures/Rose-section.png)
+![Search Page](public/pictures/Search-Page.png)
+![Rosé Page](public/pictures/Rose-page.png)
 
 ### API's used
   * wine selected from the [Snooth Wine API](https://api.snooth.com/)
