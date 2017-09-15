@@ -13,7 +13,7 @@ Brunch. is currently deployed as a fully functional webapp, working on screen si
 
 You can visit **[Brunch.](https://brunch-app-project-1.firebaseapp.com)**
 
-## ![Video Walkthrough](https://drive.google.com/open?id=0B4JsDCYeHYNHV3F0VkdtanFvclU)
+## [Video Walkthrough](https://drive.google.com/open?id=0B4JsDCYeHYNHV3F0VkdtanFvclU)
 
 #### Features include
 * Rosé of the Month
