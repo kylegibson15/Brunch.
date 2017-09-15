@@ -13,9 +13,12 @@ Brunch. is currently deployed as a fully functional webapp, working on screen si
 
 You can visit Brunch. at **[Brunch.](https://brunch-app-project-1.firebaseapp.com)**
 
-#### Other features include
+#### Features include
 * Rosé of the Month
   * once a month recommendation for rosé wine to go with your brunch selection
+
+* Searching by food items rather than restaurants
+  * ex. pancakes, eggs, coffee, etc.
 
 #### Screenshots
 
