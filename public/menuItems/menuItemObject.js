@@ -22,7 +22,7 @@ var menuItems = {
                         "Pineapple Upside Down Pancakes":{
                             "item":"Pineapple Upside Down Pancakes",
                             "description": 'Buttermilk pancakes with caramelized pineapple chunks, housemade vanilla crème anglaise and cinnamon butter.',
-                            "labels": ['pancake','pancakes','buttermilk','pineapple','vanilla','cinnamon','butter'],
+                            "labels": ['pancake','pancakes','buttermilk','pineapple','vanilla','cinnamon','butter','pineapple upside down pancakes'],
                             "price": 'n/a'
                         },
                       },
@@ -30,7 +30,7 @@ var menuItems = {
                         "Sweet Potato Pancakes":{
                             "item":"Sweet Potato Pancakes",
                             "description": 'Our signature sweet potato buttermilk pancakes topped with homemade caramel, candied pecans and ginger butter.',
-                            "labels": ['pancake','pancakes','buttermilk','sweet potato','caramel','pecan','ginger','butter','candied'],
+                            "labels": ['pancake','pancakes','buttermilk','sweet potato','caramel','pecan','ginger','butter','candied',"sweet potato pancakes"],
                             "price": 'n/a'
                         },
                       },
@@ -38,7 +38,7 @@ var menuItems = {
                         "Blackberry SubLIME Pancakes":{
                             "item":"Blackberry SubLIME Pancakes",
                             "description": 'Buttermilk pancakes loaded with white chocolate chips then topped with Key Lime pie filling, graham cracker crumbs, plump blackberries, and mascarpone whip cream.',
-                            "labels": ['pancake','pancakes','buttermilk','chocolate','key lime','graham cracker','blackberries','mascarpone','whip cream'],
+                            "labels": ['pancake','pancakes','buttermilk','chocolate','key lime','graham cracker','blackberries','mascarpone','whip cream',"blackberry sublime pancakes",'blackberry pancakes'],
                             "price": 'n/a'
                         },
                       },
@@ -126,7 +126,7 @@ var menuItems = {
                         "Huevos Rancheros":{
                             "item":"Huevos Rancheros",
                             "description": 'Corn or flour tortillas layered with black beans, jack cheese, ranchero sauce, three eggs any style, and pico de gallo.(Imagine it topped with veggies and/or meats!)',
-                            "labels": ['corn','flour','tortillas','tortilla','black beans','beans','jack','cheese','cheesy','ranchero','sauce','eggs','egg','pico','pico de gallo','sausage','chicken','veggies','veggie','pork','pulled pork'],
+                            "labels": ['corn','flour','tortillas','tortilla','black beans','beans','jack','cheese','cheesy','ranchero','sauce','eggs','egg','pico','pico de gallo','sausage','chicken','veggies','veggie','pork','pulled pork',"huevos rancheros"],
                             "price": 'n/a'
                         },
                       },
@@ -262,7 +262,7 @@ var menuItems = {
                         "Blueberry Danish Pancakes":{
                             "item":"Blueberry Danish Pancakes",
                             "description": 'Buttermilk pancakes topped with blueberry coulis, sweet cream and almond streusel surrounding a center of lemony cream cheese filling',
-                            "labels":['pancake','pancakes','buttermilk','blueberry','sweet cream','almond','streusel','lemon','cream cheese'],
+                            "labels":['pancake','pancakes','buttermilk','blueberry','sweet cream','almond','streusel','lemon','cream cheese','blueberry danish pancakes','blueberry pancakes'],
                             "price": 'n/a'
                         },
                       },
@@ -342,7 +342,7 @@ var menuItems = {
                         "Mountain Mule":{
                             "item":"Mountain Mule",
                             "description": 'CapRock Organic Gin, Fever Tree Ginger Beer, Grapefruit juice, Fresh Lime & Agave Nectar.',
-                            "labels": ['mule','gin','drink','alcohol','ginger beer','grapefruit','juice','lime','agave'],
+                            "labels": ['mule','gin','drink','alcohol','ginger beer','grapefruit','juice','lime','agave','moscow mule'],
                             "price": 'n/a'
                         },
                       },
@@ -480,7 +480,7 @@ var menuItems = {
                         "Nutella Stuffed French Toast":{
                             "item":"Nutella Stuffed French Toast",
                             "description": 'thick slices of french toast sandwiched together and stuffed with Nutella and banana topped with fresh strawberries',
-                            "labels":['syrup','french toast','toast','nutella','banana','strawberry','strawberries','stuffed'],
+                            "labels":['syrup','french toast','toast','nutella','banana','strawberry','strawberries','stuffed','nutella stuffed french toast'],
                             "price": '11.00'
                         },
                         "Crunchy French Toast":{
@@ -504,7 +504,7 @@ var menuItems = {
                         "Elvis French Toast":{
                             "item":"Elvis French Toast",
                             "description": 'french toast sandwich stuffed with peanut butter, chopped bacon, and banana',
-                            "labels":['syrup','french toast','toast','sandwich','sandwiches','peanut butter','butter','bacon','banana'],
+                            "labels":['syrup','french toast','toast','sandwich','sandwiches','peanut butter','butter','bacon','banana','peanut butter pancakes','peanut butter pancake'],
                             "price": '12.00'
                         },
                         "Coconut Coated French Toast":{
@@ -528,7 +528,7 @@ var menuItems = {
                         "Blueberry":{
                             "item":"Blueberry",
                             "description": 'fresh blueberries sautéed in blackberry syrup - Choose: stack of buttermilk pancakes, buckwheat pancakes, french toast, or a buttermilk waffle. Gluten free cakes or waffle available – add 2',
-                            "labels":['syrup','blueberry','blueberries','blackberry','blackberries','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free'],
+                            "labels":['syrup','blueberry','blueberries','blackberry','blackberries','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free','blueberry pancake','blueberry pancakes'],
                             "price": '11.00'
                         },
                         "The Foster":{
@@ -540,13 +540,13 @@ var menuItems = {
                         "Strawberry Fields":{
                             "item":"Strawberry Fields",
                             "description": 'fresh strawberries sautéed in strawberry syrup - Choose: stack of buttermilk pancakes, buckwheat pancakes, french toast, or a buttermilk waffle. Gluten free cakes or waffle available – add 2',
-                            "labels":['syrup','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free','strawberry','strawberries'],
+                            "labels":['syrup','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free','strawberry','strawberries','strawberry pancake','strawberry pancakes'],
                             "price": '11.00'
                         },
                         "Double Berry Bliss":{
                             "item":"Double Berry Bliss",
                             "description": 'fresh blueberries and strawberries topped with whipped cream  - Choose: stack of buttermilk pancakes, buckwheat pancakes, french toast, or a buttermilk waffle. Gluten free cakes or waffle available – add 2',
-                            "labels":['syrup','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free','blueberry','blueberries','strawberry','strawberries','whipped cream','cream'],
+                            "labels":['syrup','pancake','pancakes','buttermilk','buckwheat','wheat','french toast','toast','waffle','waffles','gluten free','blueberry','blueberries','strawberry','strawberries','whipped cream','cream','strawberry pancake','strawberry pancakes','blueberry pancake','blueberry pancakes'],
                             "price": '11.00'
                         },
                         "S’mores":{
@@ -986,20 +986,153 @@ var menuItems = {
                         "BROADWAY BREAKFAST":{
                             "item":"BROADWAY BREAKFAST",
                             "description": 'cage free eggs • pecanwood smoked bacon • sausage • potatoes',
-                            "labels":['the hornet','eggs','egg','bacon','sausage','potato','potatoes'],
+                            "labels":['the hornet','hornet','eggs','egg','bacon','sausage','potato','potatoes','light','gluten free'],
                             "price": '11.00'
                         },
-                        "":{
-                            "item":"",
-                            "description": '',
-                            "labels":[],
+                        "BREAKFAST TACOS":{
+                            "item":"BREAKFAST TACOS",
+                            "description": 'cage free eggs • pulled pork • black beans • cheese • pico de gallo • guacamole • cilantro • potatoes',
+                            "labels":['the hornet','hornet','eggs','egg','pork','beans','black beans','cheese','pico','pico de gallo','guacamole','cilantro','potato','potatoes','light'],
+                            "price": '11.00'
+                        },
+                        "DIXIE CHICKEN":{
+                            "item":"DIXIE CHICKEN",
+                            "description": 'buttermilk-battered fried chicken breast • sausage gravy • cage free eggs • potatoes',
+                            "labels":['the hornet','hornet','chicken','buttermilk','fried','gravy','sausage','eggs','egg','potato','potatoes'],
+                            "price": '12.00'
+                        },
+                        "DÜSSELDORFER":{
+                            "item":"DÜSSELDORFER",
+                            "description": 'bratwurst burger • fried farm fresh egg • bacon • american cheese • sausage gravy • pretzel roll • potatoes',
+                            "labels":['the hornet','hornet','bratwurst','burger','fried','egg','eggs','bacon','cheese','sausage','gravy','pretzel','potatoes','potato'],
+                            "price": '12.00'
+                        },
+                        "FRENCH KISSED TOAST":{
+                            "item":"FRENCH KISSED TOAST",
+                            "description": 'pecanwood smoked bacon • potatoes • bourbon-banana syrup',
+                            "labels":['the hornet','hornet','french toast','smoked','bacon','potatoes','potato','banana','light'],
+                            "price": '11.00'
+                        },
+                        "GIGUNDA BREAKFAST BURRITO":{
+                            "item":"GIGUNDA BREAKFAST BURRITO",
+                            "description": 'cage free eggs • pecanwood smoked bacon • potatoes • pork green chili • melted cheese • lettuce • tomatoes • guacamole',
+                            "labels":['the hornet','hornet','breakfast burrito','burrito','eggs','egg','bacon','potatoes','potato','pork','green chili','cheese','lettuce','tomato','tomatoes','guacamole','gluten free','light'],
+                            "price": '12.00'
+                        },
+                        "HORNET OMELETTE":{
+                            "item":"HORNET OMELETTE",
+                            "description": 'cage free eggs • spinach • tomato • mushroom • sausage • feta • potatoes',
+                            "labels":['the hornet','hornet','eggs','egg','omelet','spinach','tomato','mushroom','sausage','feta','potato','potatoes','gluten free','light'],
+                            "price": '11.00'
+                        },
+                        "PRIME RIB HASH":{
+                            "item":"PRIME RIB HASH",
+                            "description": 'shaved prime rib • cage free eggs • onions • peppers • potatoes',
+                            "labels":['the hornet','hornet','hash','prime rib','eggs','egg','onions','onion','peppers','potatoes','potato','gluten free'],
+                            "price": '13.00'
+                        },
+                        "PUPUSAS RANCHEROS":{
+                            "item":"PUPUSAS RANCHEROS",
+                            "description": 'two pupusas • cage free eggs • pork green chili • black beans • cheese • lettuce • tomatoes',
+                            "labels":['the hornet','hornet','pupusas','eggs','egg','pork','green chili','black beans','cheese','lettuce','tomatoes','light','gluten free'],
+                            "price": '12.00'
+                        },
+                        "SEA SALT CARAMEL BREAD PUDDING":{
+                            "item":"SEA SALT CARAMEL BREAD PUDDING",
+                            "description": 'walnuts • candied bacon',
+                            "labels":['the hornet','hornet','sea salt','caramel','bread pudding','walnuts','bacon','candied bacon','light'],
+                            "price": '7.00'
+                        },
+                        "GREEK GOD OF PARFAIT":{
+                            "item":"GREEK GOD OF PARFAIT",
+                            "description": 'greek yogurt • artisan natural granola • seasonal fruit • orange blossom honey • candied hazelnuts • blueberry muffin',
+                            "labels":['the hornet','hornet','parfait','greek yogurt','yogurt','granola','fruit','orange','honey','hazelnuts','blueberry','blueberries','blueberry muffin','light','gluten free'],
                             "price": ''
                         },
-                        "":{
-                            "item":"",
-                            "description": '',
-                            "labels":[],
-                            "price": ''
+                        "POP TART":{
+                            "item":"POP TART",
+                            "description": 'homemade blueberry filled pastry • icing made by our sweet-toothed neighbor\'s — Sugar Bake Shop',
+                            "labels":['the hornet', 'hornet','blueberry','blueberries','pastries','pastry','light'],
+                            "price": '3.00'
+                        },
+                        "BLUEBERRY MUFFIN ":{
+                            "item":"BLUEBERRY MUFFIN ",
+                            "description": 'deliciousness',
+                            "labels":['the hornet','hornet','blueberry','blueberries','blueberry muffin','light','gluten free'],
+                            "price": '3.00'
+                        },
+                        "BREAKFAST SHOT":{
+                            "item":"BREAKFAST SHOT",
+                            "description": 'don julio anejo • cinnamon-dusted orange',
+                            "labels":['the hornet','hornet','alcohol','drink','drinks','breakfast drink'],
+                            "price": '10.00'
+                        },
+                        "BRUNCHY PUNCHY":{
+                            "item":"BRUNCHY PUNCHY",
+                            "description": 'breckenridge spiced rum • cranberry liqueur • pineapple juice • orange juice • lemon',
+                            "labels":['the hornet','hornet','punch','alcohol','drink','drinks','rum','cranberry','pineapple','pineapple juice','orange juice','lemon'],
+                            "price": '8.00'
+                        },
+                        "DIRTY CHAI":{
+                            "item":"DIRTY CHAI",
+                            "description": 'captain morgan coconut rum • chai simple syrup • cold brew coffee • milk • cinnamon garnish',
+                            "labels":['the hornet','hornet','rum','alcohol','drink','drinks','chai','syrup','coffee','cold brew','cold brew coffee','milk','cinnamon'],
+                            "price": '9.00'
+                        },
+                        "KOMBUCHA CUREMOSA":{
+                            "item":"KOMBUCHA CUREMOSA",
+                            "description": 'happy leaf kombucha • champagne • mint',
+                            "labels":['the hornet','hornet','kombucha','champagne','mint','drink','drinks','alcohol'],
+                            "price": '6.00'
+                        },
+                        "BRUNCH DRINKS":{
+                            "item":"BRUNCH DRINKS",
+                            "description": 'MAKE-YOUR-OWN BLOODY MARY',
+                            "labels":['bloody mary','the hornet','hornet','drink','drinks','alcohol'],
+                            "price": '2.00'
+                        },
+                        "BRUNCH DRINKS":{
+                            "item":"BRUNCH DRINKS",
+                            "description": 'CLASSIC MIMOSA',
+                            "labels":['the hornet','hornet','drink','drinks','alcohol','mimosa','orange juice','champagne'],
+                            "price": '3.00'
+                        },
+                        "BRUNCH DRINKS":{
+                            "item":"BRUNCH DRINKS",
+                            "description": 'DOUBLE MIMOSA',
+                            "labels":['the hornet','hornet','drink','drinks','alcohol','mimosa','orange juice','champagne'],
+                            "price": '5.00'
+                        },
+
+                      }
+                    ]
+                }
+            }
+          },
+          {
+            "restaurant": {
+                "name": "Lola Mexican Fish House",
+                "location": {
+                    "address": "1575 Boulder Street, Denver 80211",
+                    "locality": "The Highlands",
+                    "city": "Denver",
+                    "city_id": 305,
+                    "latitude": "39.7592204112",
+                    "longitude": "-105.0107693883",
+                    "zipcode": "80211",
+                    "country_id": 216,
+                    "locality_verbose": "The Highlands, Denver",
+                    "logo":"../pictures/header-logo.png",
+                    "menu_Url":"https://www.loladenver.com/menus/brunch/"
+                },
+                "menu":{
+                    "items":[
+                      {
+                        "Salsa Verde [medium]":{
+                            "item":"Salsa Verde [medium]",
+                            "description": 'tomatillo, green apple, serrano, cilantro',
+                            "labels":['lola','salsa','verde','salsa verde','tomatillo','green apple','apple','serrano','cilantro'],
+                            "price": '4.00'
                         },
                         "":{
                             "item":"",
