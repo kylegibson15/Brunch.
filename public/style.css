@@ -1,6 +1,6 @@
 
 /* COMPUTER SCREEN */
-/*@media only screen and (min-width: 1000px) {*/
+@media only screen and (min-width: 1000px) {
   html, body {
     height: 80%;
     width: 100%;
@@ -19,6 +19,10 @@
 
   nav .brand-logo {
     padding-left: 2em !important;
+  }
+
+  .rightNav {
+    float: right;
   }
 
   #city {
@@ -49,6 +53,7 @@
     width: 74%;
     height: 60%;
     background-image: url('pictures/hero-background-desktop.jpg');
+    background-size: cover;
     border: 30px solid #EE7674;
   }
 
@@ -87,7 +92,7 @@
     background-image: url('pictures/the-last-supper-giovanni-rapiti.jpg');
     color: #FC6DAB;
     border: 2px solid white;
-    /*color: white;*/
+    background-size: cover;
   }
 
   .quote-section h3 {
@@ -156,7 +161,7 @@
 
   .food-image {
     align-self: center;
-    margin: 2rem;
+    margin: 5%;
     border-radius: 10%;
   }
 
@@ -241,7 +246,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: #546A7B;
     margin-top: 30px;
     padding-right: 30px;
@@ -263,23 +268,127 @@
     font-family: 'Cedarville Cursive', cursive;
     color: #FC6DAB;
   }
-/*}*/
+}
 
 /* PHONE SCREEN */
-@media only screen and (min-width: 416px and max-width: 1000px) {
+@media only screen and (max-width: 415px) {
 
   html, body {
-    height: 80%;
+    height: 100%;
     width: 100%;
   }
-
   body, main {
     height: 100%;
     width: 100%;
     background-color: #c1524c;
   }
+  .nav-wrapper {
+    overflow: hidden;
+    background-color: #ee6e73;
+    border-bottom: 1px solid #333;
+    position: fixed !important; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 8.5% !important;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  .hide{
+    visibility: hidden;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .brand-logo {
+    visibility: hidden;
+  }
+  #city {
+    visibility: hidden;
+  }
+  .fryingPan {
+    visibility: visible;
+    height: 1.8rem;
+    margin-top: 2rem;
+  }
+  .rightNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rightNav li{
+    margin-right:1rem;
+    margin-left: 1rem;
+  }
+  .restaurantImage {
 
+  }
+  .giphy {
+    width:50%;
+  }
 
+  #logo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('pictures/Jessica_Southwick_pop-art-kitchen_pattern.jpg');
+    background-size: cover;
 
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    background-image: url(pictures/hero-background-desktop.jpg);
+    background-size: cover;
+    border: 1px solid #EE7674;
+    color: white;
+  }
+  #logo-big {
+    font-size: 2.5rem;
+    /*margin-top: 1rem; */
+    /*visibility: hidden;*/
+  }
 
+  #fav-search-block {
+    width: 50%;
+  }
+  .food-image {
+    width: 50%;
+  }
+  #search {
+    width: 50%;
+  }
+  .omelet-search {
+    width: 50%:
+  }
+  .omelet {
+    visibility: hidden;
+    width: 50%;
+  }
+  .search-btn-area {
+    width: 50%;
+  }
+
+  #feature-container {
+    width: 50%;
+  }
+  .quote-section-container {
+    width: 50%;
+  }
+  #rose-block {
+    width: 50%;
+  }
+  .foot {
+    width: 50%;
+  }
 }
