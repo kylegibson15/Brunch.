@@ -2,7 +2,7 @@ var form = document.getElementById('food')
 form.addEventListener('submit', function(event) {
   event.preventDefault();
   var id = event.target.elements.foodItem.value;
-
+    id = id.toLowerCase()
   var restaurantsArray = menuItems.restaurants
   var section = document.getElementById('foodItems')
   section.innerHTML = '';
