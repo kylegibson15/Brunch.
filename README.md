@@ -20,6 +20,8 @@ You can visit Brunch. at **[Brunch.](https://brunch-app-project-1.firebaseapp.co
 * Searching by food items rather than restaurants
   * ex. pancakes, eggs, coffee, etc.
 
+* Currently only limited amount of data and Denver located restaurants
+
 #### Screenshots
 
 ![Home Screen](public/pictures/Home-Screen.png)
