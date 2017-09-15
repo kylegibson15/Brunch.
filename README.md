@@ -11,7 +11,9 @@ This is eliminating a step and getting straight to what food you are hungry for.
 ## Functionality
 Brunch. is currently deployed as a fully functional webapp, working on screen sizes 1000px or larger through Firebase.
 
-You can visit **[Brunch.](https://brunch-app-project-1.firebaseapp.com)**
+You can visit **[Brunch.](https://brunch-app-project-1.firebaseapp.com)** here
+
+The link below will take to a walkthrough video to show you how the apps functionality works
 
 ## [Video Walkthrough](https://drive.google.com/open?id=0B4JsDCYeHYNHV3F0VkdtanFvclU)
 
