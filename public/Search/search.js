@@ -41,6 +41,8 @@ form.addEventListener('submit', function(event) {
               var price = document.createElement('p')
               var logo = document.createElement('img')
               var linkLogo= document.createElement('div')
+              var click = document.createElement('p')
+              var clickArrow = document.createElement('img')
 
               div.classList.add('food-container')
               h5.innerText = currentItem
@@ -66,9 +68,6 @@ form.addEventListener('submit', function(event) {
                 linkLogo.append(link)
                   link.append(logo)
 
-
-
-              // console.log(`${currentItem}, ${currentDescription}`)
             }else{
 
             }
